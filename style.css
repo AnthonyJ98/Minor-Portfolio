@@ -29,6 +29,13 @@ body {
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px #000000;
 }
+.hero h2 {
+    font-size: 1.5em;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #000000;
+}
 .hero p {
     font-size: 1.5em;
     margin-top: 10px;
@@ -142,6 +149,27 @@ footer i {
     border: 2px solid #ccc; /* Voeg een lichtgrijze rand toe voor contrast */
 }
 
+.proof-card2 {
+    flex: 1 1 calc(30% - 10px);
+    /* Elk item neemt 30% van de breedte in beslag */
+    max-width: 75%;
+    /* Beperkt de maximale breedte van een item tot 75% */
+    text-align: center;
+    /* Zorg dat tekst (zoals eventuele onderschriften) gecentreerd is */
+}
+
+.proof-card2 img {
+    width: 100%;
+    /* Zorg dat de afbeelding de container volledig vult */
+    height: auto;
+    /* Houd de originele aspectratio */
+    border-radius: 5px;
+    /* Maak de randen licht afgerond */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Voeg een subtiele schaduw toe */
+    border: 2px solid #ccc;
+    /* Voeg een lichtgrijze rand toe voor contrast */
+}
 .proof-gallery h2 {
     width: 100%;
     text-align: center;
@@ -151,4 +179,27 @@ footer i {
     font-size: 1.8em;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+/* Stijlen voor schermen kleiner dan 768px (meestal mobiel) */
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    .menu {
+        flex-direction: column;
+        /* Menu verticaal stapelen */
+    }
+}
+
+/* Stijlen voor schermen groter dan 768px (meestal desktop) */
+@media (min-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .menu {
+        flex-direction: row;
+        /* Menu horizontaal weergeven */
+    }
 }
