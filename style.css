@@ -39,7 +39,7 @@ body {
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: #34495e;
+    background-color: #6c1eab;
     padding: 15px 0;
     position: sticky;
     top: 0;
@@ -86,7 +86,7 @@ body {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #34495e;
+    background-color: #6c1eab;
     color: #ecf0f1;
     font-size: 0.9em;
 }
